@@ -20,6 +20,38 @@ body {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.left-menu,
+.right-menu {
+    display: block;
+    padding-left: 15px;
+    color: black;
+    opacity: .75;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.left-menu {
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+
+.right-menu {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .logo {
     display: flex;
     padding: 109px 0px 0px;
