@@ -126,7 +126,7 @@ img {
     width: 100%;
 }
 
-#footer, a, link {
+a, link {
     display: inline-block;
     color: #5f6368;
     padding-left: 27px;
