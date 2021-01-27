@@ -1,5 +1,4 @@
 * {
-    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -69,16 +68,24 @@ img {
 
 .search-box {
     display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    /* display: flex;
     position: relative;
     margin: 0px 174px;
     padding: 6px 0px 0px;
     text-align: center;
-    justify-content: center;
+    justify-content: center; */
     
 }
 
 .search-box input {
-    position: relative;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-align: start;
+    position: relative; 
     padding: 5px 8px 0px 16px;
     margin: 0 auto;
     padding-left: 14px;
@@ -88,7 +95,7 @@ img {
     line-height: 34px;
     border-radius: 50px;
     font: 16px arial,sans-serif;
-    cursor: text;
+    cursor: text; 
 }
 
 .button-1,
