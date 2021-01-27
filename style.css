@@ -4,9 +4,7 @@
     padding: 0;
 }
 
-header {
 
-}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -22,6 +20,7 @@ body {
 
 a {
     text-decoration: none;
+    white-space: nowrap;
 }
 
 a:hover {
@@ -31,9 +30,7 @@ a:hover {
 .left-menu,
 .right-menu {
     display: block;
-    padding-left: 15px;
     color: black;
-    opacity: .75;
     cursor: pointer;
     font-size: 13px;
 }
@@ -45,7 +42,7 @@ a:hover {
 
 .right-menu {
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 27px;
     position: relative;
     text-align: right;
     align-items: center;
@@ -102,3 +99,39 @@ a:hover {
     cursor: pointer;
     user-select: none;
 }
+
+#footer {
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    width: 100%;
+}
+
+#footer, a, link {
+    display: inline-block;
+    color: #5f6368;
+    padding-left: 27px;
+}
+
+.foot {
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+}
+
+
+.left-foot {
+    float: left;
+    white-space: nowrap;
+    color: #5f6368
+}
+
+
+.right-foot {
+    float: right;
+    padding-right: 27px;
+    color: #5f6368
+}
+
